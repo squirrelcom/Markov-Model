@@ -101,7 +101,3 @@ def markov(fileName, k, length):
     model = markov_model(masterString.split(), k)
     gen_from_model(model, length)
 
-'''
-fileName = "/Users/williamwang/Desktop/hw8pr1/testFile.txt"
-markov(fileName, 2, 100)
-'''
